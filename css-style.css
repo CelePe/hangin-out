@@ -1,0 +1,140 @@
+@font-face{
+    font-family: 'ProzaLibre';
+    src: url(fonts/Proza_Libre/ProzaLibre-SemiBold.ttf)
+}
+
+@font-face{
+    font-family: 'OpenSans';
+    src: url(fonts/Open_Sans/OpenSans-Regular.ttf)
+}
+
+@font-face{
+    font-family: 'OpenSansItalic';
+    src: url(fonts/Open_Sans/OpenSans-LightItalic.ttf)
+}
+
+
+.html {
+    margin: 0;
+    border: 0;
+}
+
+.body{
+    margin: 0;
+    border: 0;
+
+}
+
+.header{
+    margin: 0;
+    border: 0;
+    background-color: rgb(139, 168, 145);
+   
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     margin: 0;
+     
+}
+
+
+
+.nav-item{
+    font-family: 'ProzaLibre';
+    font-weight: 600;
+    padding: 40px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+
+.content {
+    
+}
+
+.name{
+    background-color: rgb(233, 223, 192);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skills{
+    background-color: rgb(180, 103, 77) ;
+    margin: 0;
+    padding: 20px;
+}
+
+.trabajos{
+    padding: 20px;
+    background-color: #855e5c;
+}
+
+h1{
+    font-family: 'OpenSans';
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h2{
+    font-family: 'Prozalibre';
+    margin: 0;
+    font-size: 35px;
+    }
+
+.texts{
+    font-family: 'OpenSansItalic';
+}
+
+.texts.texts1 {
+    font-size: 20px;
+    font-weight: 300;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+}
+
+.memoji{
+    width: 300px;
+    border-radius: 50%;
+    background-color: #CE9E4A;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.icon {
+    height: 230px;
+    margin: 0px;
+    padding: 20px;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.trabajos-text{
+    font-family:'Prozalibre';
+    margin: 0;
+    font-size: 35px;
+}
+
+.trabajos-imagenes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tr-imagenes{
+    width: 300px;
+    margin: 20px;
+    box-shadow: 0px 1px 1px grey;
+    border-radius: 3%;
+}
